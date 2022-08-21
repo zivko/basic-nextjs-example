@@ -1,7 +1,4 @@
-/** @type {import('next').NextConfig} */
-const nextConfig = {
-  reactStrictMode: true,
-  swcMinify: true,
+module.exports = {
+    /* config options here */
+    basePaths: '/nextjsserver',
 }
-
-module.exports = nextConfig
